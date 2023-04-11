@@ -1,0 +1,60 @@
+h2 {
+  text-align: center;
+}
+
+.blog-post {
+  border: 2px solid black;
+  margin-bottom: 8px;
+}
+
+li {
+  list-style: none;
+}
+
+.blog-post h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.blog-post h4 {
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+body.blue {
+  background: #ddddff;
+}
+
+body.blue h1,
+body.blue h2,
+body.blue h3 {
+  color: darkblue;
+}
+
+body.blue {
+  background: #ddddff;
+}
+
+body.red {
+  background: #ffdddd;
+}
+
+body.red h1,
+body.red h2,
+body.red h3 {
+  color: darkred;
+}
